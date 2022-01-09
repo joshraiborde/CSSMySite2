@@ -3,38 +3,23 @@ body {
     text-align: center;
 
 }
-
-#h1 {
-    margin-top: 0;
-}
+/* top container */
 .top_container {
     background-color: #A3DA8D;
     position: relative;
     padding-top: 100px;
-
 }
 
-.middle_container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px;
 }
 
-.bottom_container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+#h1_top_container {
+    margin-top: 0;
 }
-
-
-#middle_container {
-    color: white;
-}
-
-#bottom_container {
-    color: white;
-}
-.asp {
+.asp_top_container {
     text-decoration: underline;
 }
 .bottom-cloud {
@@ -42,8 +27,33 @@ body {
     left: 300px;
     bottom: 300px;
 }
-.top-cloud {
-    position: absolute;
-    right: 300px;
-    top: 50px;
+.mountain {
+    /* not styled yet */
 }
+
+/* ***************BREAK*************** */
+
+/* middle container */
+.middle_container {
+    background-color: red;
+    height: 200px;
+    width: 200px;
+}
+#h3_middle_container {
+    color: white;
+}
+
+/* ***************BREAK*************** */
+
+/* bottom container */
+.bottom_container {
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+}
+
+#h3_bottom_container {
+    color: white;
+}
+
+

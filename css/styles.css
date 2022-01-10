@@ -1,9 +1,24 @@
+/* all below */
 body {
-    margin: 0px;
+    margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
-
+    font-size: 2rem;
 }
+
+p {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* all above */
+
 /* top container */
 .top-container {
     background-color: #3E8E7E;
@@ -17,12 +32,16 @@ body {
     top: 50px;
 }
 
-#h1_top_container {
-    margin-top: 0;
+.h1-top-container {
+    font-size: 5.625rem;
     font-family: 'Sacramento', cursive;
+    margin: 2.5rem auto 0 auto;
 }
-.asp_top_container {
+.asp-h2-top-container {
     text-decoration: underline;
+}
+.programmer-h2-top-container {
+    font-size: 2.5rem;
 }
 .bottom-cloud {
     position: absolute;
@@ -37,71 +56,52 @@ body {
     background-color: #7CD1B8;
     color: black;
 }
-h3 {
-    font-family: 'Montserrat', sans-serif;
-}
-#h3_middle_container {
-    color: white;
-}
+
 .josh-profile-pic {
     height: 200px;
 }
-
-/* middle container skills icons */
 
 .skill-row {
     position: relative;
 }
 
+/* middle container skills icons below */
 .skills-icon {
     height: 200px;
     width: 200px;
 }
 
-.html {
+.html-icon {
     height: 200px;
     width: 200px;
 }
 
-.css {
+.css-icon {
     height: 200px;
     width: 200px;
 }
 
-.ruby-on-rails {
+.rails-icon {
     height: 200px;
     width: 200px;
 }
 
-.javascript {
+.javascript-icon {
     height: 200px;
     width: 200px;
 }
 
-.react {
+.react-icon {
     height: 200px;
     width: 200px;
 }
+/* .middle-container skills icons above */
 
+/* .middle-container above */
 
-
-/* ***************BREAK*************** */
-
-/* bottom container */
+/* .bottom-container below */
 .bottom-container {
     background-color: #FABB51;
-}
-
-#h3_bottom_container {
-    color: white;
-}
-/* ***************BREAK*************** */
-p {
-    font-family: 'Montserrat', sans-serif;
-}
-
-h2 {
-    font-family: 'Montserrat', sans-serif;
 }
 
 /* bottom-container icons below */
@@ -128,3 +128,5 @@ h2 {
     color: white;
   }
   /* bottom-container icons above */
+
+/* bottom-container above */

@@ -6,7 +6,8 @@ body {
 }
 /* top container */
 .top_container {
-    background-color: #A3DA8D;
+
+    background-color: #3E8E7E;
     position: relative;
     padding-top: 100px;
 }
@@ -29,17 +30,13 @@ body {
     left: 300px;
     bottom: 300px;
 }
-.mountain {
-    /* not styled yet */
-}
 
 /* ***************BREAK*************** */
 
 /* middle container */
-.middle_container {
-    background-color: red;
-    height: 200px;
-    width: 200px;
+.middle-container {
+    background-color: #7CD1B8;
+    color: black;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -47,14 +44,53 @@ h3 {
 #h3_middle_container {
     color: white;
 }
+.josh-profile-pic {
+    height: 200px;
+}
+
+/* middle container skills icons */
+
+.skill-row {
+    position: relative;
+}
+
+.skills-icon {
+    height: 200px;
+    width: 200px;
+}
+
+.html {
+    height: 200px;
+    width: 200px;
+}
+
+.css {
+    height: 200px;
+    width: 200px;
+}
+
+.ruby-on-rails {
+    height: 200px;
+    width: 200px;
+}
+
+.javascript {
+    height: 200px;
+    width: 200px;
+}
+
+.react {
+    height: 200px;
+    width: 200px;
+}
+
+
 
 /* ***************BREAK*************** */
 
 /* bottom container */
-.bottom_container {
-    background-color: blue;
-    height: 200px;
-    width: 200px;
+.bottom-container {
+    background-color: #FABB51;
 }
 
 #h3_bottom_container {
@@ -68,3 +104,24 @@ p {
 h2 {
     font-family: 'Montserrat', sans-serif;
 }
+
+/* bottom-container icons below */
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-medium {
+    background: #bb0000;
+    color: white;
+  }
+  /* bottom-container icons above */

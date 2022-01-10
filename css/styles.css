@@ -5,8 +5,7 @@ body {
 
 }
 /* top container */
-.top_container {
-
+.top-container {
     background-color: #3E8E7E;
     position: relative;
     padding-top: 100px;
@@ -119,8 +118,12 @@ h2 {
     background: #007bb5;
     color: white;
   }
+  .fa-github {
+    background: white;
+    color: grey;
+  }
 
-  .fa-medium {
+  .medium {
     background: #bb0000;
     color: white;
   }

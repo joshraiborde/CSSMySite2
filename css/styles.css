@@ -67,15 +67,25 @@ h3 {
 }
 
 .josh-profile-pic {
-    height: 200px;
+    width: 25%;
 }
 
 .skill-row {
-    position: relative;
+    /* position: relative; */
+    width: 50%;
+    margin: 100px auto 100px auto;
 }
-.h3-learned-middle-container {
+.frameworks-middle-container {
+    float: left;
+}
+
+.h3-frameworks-middle-container {
     color: #11999E;
 
+}
+.frameworks-description-skill-row-middle-container {
+    text-align: left;
+    line-height: 2;
 }
 
 /* middle container skills icons below */
@@ -85,28 +95,23 @@ h3 {
 }
 
 .html-icon {
-    height: 200px;
-    width: 200px;
+    width: 25%;
 }
 
 .css-icon {
-    height: 200px;
-    width: 200px;
+    width: 25%;
 }
 
 .rails-icon {
-    height: 200px;
-    width: 200px;
+    width: 25%;
 }
 
 .javascript-icon {
-    height: 200px;
-    width: 200px;
+    width: 25%;
 }
 
 .react-icon {
-    height: 200px;
-    width: 200px;
+    width: 25%;
 }
 /* .middle-container skills icons above */
 

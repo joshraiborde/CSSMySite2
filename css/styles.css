@@ -36,12 +36,14 @@ h3 {
     font-size: 5.625rem;
     font-family: 'Sacramento', cursive;
     margin: 2.5rem auto 0 auto;
-}
-.asp-h2-top-container {
-    text-decoration: underline;
+    color: #66BFBF;
 }
 .programmer-h2-top-container {
     font-size: 2.5rem;
+    color: #66BFBF;
+}
+.asp-h2-top-container {
+    text-decoration: underline;
 }
 .bottom-cloud {
     position: absolute;
@@ -63,6 +65,10 @@ h3 {
 
 .skill-row {
     position: relative;
+}
+.h3-learned-middle-container {
+    color: #11999E;
+
 }
 
 /* middle container skills icons below */
@@ -103,7 +109,13 @@ h3 {
 .bottom-container {
     background-color: #FABB51;
 }
+.footer-link {
+    color: #11999E;
+}
 
+.footer-copyright {
+    color: #11999E;
+}
 /* bottom-container icons below */
 .fa:hover {
     opacity: 0.7;

@@ -9,12 +9,18 @@ body {
 p {
     font-family: 'Montserrat', sans-serif;
 }
-
+h1 {
+    color: #66BFBF;
+    line-height: 2;
+}
 h2 {
     font-family: 'Montserrat', sans-serif;
+    color: #66BFBF;
+    font-weight: normal;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
+    color: #11999E;
 }
 
 /* all above */
@@ -24,7 +30,7 @@ h3 {
     background-color: #3E8E7E;
     position: relative;
     padding-top: 100px;
-    line-height: 2;
+    
 }
 
 .top-cloud {
@@ -37,12 +43,11 @@ h3 {
     font-size: 5.625rem;
     font-family: 'Sacramento', cursive;
     margin: 2.5rem auto 0 auto;
-    color: #66BFBF;
+    
 }
 .programmer-h2-top-container {
     font-size: 2.5rem;
-    color: #66BFBF;
-    font-weight: normal;
+
 }
 .asp-h2-top-container {
     text-decoration: underline;

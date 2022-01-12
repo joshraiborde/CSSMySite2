@@ -77,21 +77,23 @@ h3 {
     line-height: 2;
 }
 .icons-frameworks-middle-container {
-    float: left;
+    /* float: left; */
 }
 
 .h3-frameworks-middle-container {
     color: #11999E;
 
 }
-.frameworks-description-skill-row-middle-container {
+.p-frameworks-description-skill-row-middle-container {
     /* text-align: left; */
     /* line-height: 2; */
+    /* clear: right; */
 }
 
-.photography-description-skill-row-middle-container {
+.p-photography-description-skill-row-middle-container {
     /* text-align: left; */
     /* line-height: 2; */
+    /* clear: left; */
 }
 
 
@@ -103,42 +105,68 @@ h3 {
 /* middle container frameworks below */
 .html-icon {
     width: 25%;
+    float: right;
+    margin: 10px 10px 0 10px;
 }
 
 .css-icon {
     width: 25%;
+    float: right;
+    margin: 10px 10px 0 10px;
 }
 
 .ruby-icon {
     width: 25%;
+    float: right;
+    margin: 10px 10px 0 10px;
 }
 
 .javascript-icon {
     width: 25%;
+    float: right;
+    margin: 10px 10px 0 10px;
 }
 
 .react-icon {
     width: 25%;
+    float: right;
+    margin: 10px 10px 0 10px;
 }
 /* middle container frameworks above */
 /* middle container photography icons below */
 .camera-icon {
     width: 25%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 .aperature-icon {
     width: 25%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .camera-lens-icon {
     width: 25%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .camera-flash-icon {
     width: 25%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 .umbrella-flash-icon {
     width: 25%;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 /* middle container photography icons above */
 

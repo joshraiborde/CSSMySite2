@@ -71,11 +71,12 @@ h3 {
 }
 
 .skill-row {
-    /* position: relative; */
     width: 50%;
     margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
 }
-.frameworks-middle-container {
+.icons-frameworks-middle-container {
     float: left;
 }
 
@@ -84,16 +85,22 @@ h3 {
 
 }
 .frameworks-description-skill-row-middle-container {
-    text-align: left;
-    line-height: 2;
+    /* text-align: left; */
+    /* line-height: 2; */
 }
+
+.photography-description-skill-row-middle-container {
+    /* text-align: left; */
+    /* line-height: 2; */
+}
+
 
 /* middle container skills icons below */
 .skills-icon {
     height: 200px;
     width: 200px;
 }
-
+/* middle container frameworks below */
 .html-icon {
     width: 25%;
 }
@@ -102,7 +109,7 @@ h3 {
     width: 25%;
 }
 
-.rails-icon {
+.ruby-icon {
     width: 25%;
 }
 
@@ -113,6 +120,28 @@ h3 {
 .react-icon {
     width: 25%;
 }
+/* middle container frameworks above */
+/* middle container photography icons below */
+.camera-icon {
+    width: 25%;
+}
+.aperature-icon {
+    width: 25%;
+}
+
+.camera-lens-icon {
+    width: 25%;
+}
+
+.camera-flash-icon {
+    width: 25%;
+}
+
+.umbrella-flash-icon {
+    width: 25%;
+}
+/* middle container photography icons above */
+
 /* .middle-container skills icons above */
 
 /* .middle-container above */

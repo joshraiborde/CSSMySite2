@@ -1,13 +1,16 @@
 /* all below */
 body {
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 2rem;
+    background-color: #3E8E7E;
 }
 
 p {
     font-family: 'Montserrat', sans-serif;
+    line-height: 2;
 }
 h1 {
     color: #66BFBF;
@@ -17,6 +20,7 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     color: #66BFBF;
     font-weight: normal;
+    padding-bottom: 10px;
 }
 h3 {
     font-family: 'Montserrat', sans-serif;
@@ -24,11 +28,15 @@ h3 {
 }
 
 hr {
-    border-style: none;
+    /* border-style: none;
     border-top-style: dotted;
     border-color: grey;
     border-width: 5px;
-    width: 10%;
+    width: 10%; */
+    border: dotted grey 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
   }
 
 /* applied to all elements above */
@@ -70,8 +78,9 @@ hr {
 
 /* middle container */
 .middle-container {
-    background-color: #7CD1B8;
+    /* background-color: #7CD1B8; */
     color: black;
+    margin: 100px 0 0 0;
 }
 
 .josh-profile-pic {
@@ -86,7 +95,6 @@ hr {
     width: 50%;
     margin: 100px auto 100px auto;
     text-align: left;
-    line-height: 2;
 }
 .icons-frameworks-middle-container {
     /* float: left; */
@@ -101,13 +109,15 @@ hr {
 }
 
 .p-experienced-middle-container {
-    margin: 32 0 0 0;
+    /* margin: 32 0 0 0; */
+    margin: auto;
 }
 
 .p-frameworks-description-skill-row-middle-container {
     /* text-align: left; */
     /* line-height: 2; */
     /* clear: right; */
+    margin: auto;
 }
 
 .p-photography-description-skill-row-middle-container {
@@ -193,9 +203,17 @@ hr {
 /* .middle-container skills icons above */
 
 /* .middle-container contact-me  */
-.contact-me-middle-container {
+.h2-contact-touch-middle-container {
     /* margin-bottom: 30px; */
+    color: black;
 }
+
+.h3-contact-message-middle-container {
+    width: 40%;
+    margin: 40px auto 60px;
+    color: black;
+}
+
 
 .btn {
     background: #3498db;
@@ -207,7 +225,7 @@ hr {
     -webkit-border-radius: 28;
     -moz-border-radius: 28;
     border-radius: 28px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 20px;
     padding: 5px 10px 5px 10px;
@@ -229,8 +247,9 @@ hr {
 
 /* .bottom-container below */
 .bottom-container {
-    background-color: #FABB51;
+    background-color: #66bfbf;
     /* margin: 10px 0 0 0; */
+    padding: 10px 0 1px;
 }
 /* .hr-bottom-container {
     background-color: #7CD1B8;
@@ -244,6 +263,14 @@ hr {
     color: #11999E;
 }
 /* bottom-container icons below */
+a {
+    margin: 10px 10px;
+    text-decoration: none;
+}
+/* a:hover {
+    color: #eaf6f6
+} */
+
 .fa:hover {
     opacity: 0.7;
   }
@@ -272,6 +299,7 @@ hr {
 
   .footer-copyright{
       color: #EAF6F6;
+      /* padding: 20px 0; */
   }
 
 /* bottom-container footer-copyright above*/
